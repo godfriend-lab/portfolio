@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- =====================================================================
+         SITEMAP PRINCIPAL - AGBEVIVI KOFFI GOD-FRIEND PORTFOLIO
+         Optimisé pour Google, Bing, DuckDuckGo, Yandex, Baidu
+         Dernière mise à jour : 2026-10-05
+         ===================================================================== -->
+
+    <!-- PAGE PRINCIPALE -->
+    <url>
+        <loc>https://agk-portfolio.vercel.app/</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        <!-- Versions multilingues -->
+        <xhtml:link rel="alternate" hreflang="en" href="https://agk-portfolio.vercel.app/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://agk-portfolio.vercel.app/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://agk-portfolio.vercel.app/" />
+        
+        <!-- Image principale (photo de profil) -->
+        <image:image>
+            <image:loc>https://agk-portfolio.vercel.app/assets/images/ma-photo.png</image:loc>
+            <image:title>AGBEVIVI KOFFI GOD-FRIEND - Full-Stack Developer & CTO</image:title>
+            <image:caption>Photo professionnelle de AGBEVIVI KOFFI GOD-FRIEND, développeur Full-Stack et CTO basé à Lomé, Togo</image:caption>
+        </image:image>
+    </url>
+
+    <!-- SECTIONS DU SITE (Ancres pour navigation) -->
+    <url>
+        <loc>https://agk-portfolio.vercel.app/#about</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://agk-portfolio.vercel.app/#skills</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://agk-portfolio.vercel.app/#projects</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://agk-portfolio.vercel.app/#experience</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://agk-portfolio.vercel.app/#contact</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- IMAGES DU PORTFOLIO (Image Sitemap pour Google Images) -->
+    <url>
+        <loc>https://agk-portfolio.vercel.app/</loc>
+        <image:image>
+            <image:loc>https://agk-portfolio.vercel.app/assets/images/aelquoris.png</image:loc>
+            <image:title>AELQUORIS - Digital Encyclopedia of Africa</image:title>
+            <image:caption>Capture d'écran du projet AELQUORIS, encyclopédie numérique dédiée à l'Afrique</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://agk-portfolio.vercel.app/assets/images/prokorb.png</image:loc>
+            <image:title>ProKorb - Services Marketplace for Africa</image:title>
+            <image:caption>Capture d'écran de ProKorb, marketplace de services pour l'Afrique</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://agk-portfolio.vercel.app/assets/images/werkox.png</image:loc>
+            <image:title>WERK-OX - All-in-One Business OS</image:title>
+            <image:caption>Capture d'écran de WERK-OX, système d'exploitation tout-en-un pour entreprises</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://agk-portfolio.vercel.app/assets/images/deviscafe.png</image:loc>
+            <image:title>Devis-Café - International Quote Creator</image:title>
+            <image:caption>Capture d'écran de Devis-Café, plateforme de création de devis internationaux</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://agk-portfolio.vercel.app/assets/images/werklock.png</image:loc>
+            <image:title>WERKLOCK - Secure Solution for Banks</image:title>
+            <image:caption>Capture d'écran de WerkLock, solution sécurisée pour banques et institutions</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://agk-portfolio.vercel.app/assets/images/autres.png</image:loc>
+            <image:title>Other Projects - E-commerce, Healthcare, Custom Apps</image:title>
+            <image:caption>Aperçu des autres projets réalisés : e-commerce, santé, applications sur mesure</image:caption>
+        </image:image>
+    </url>
+
+</urlset>
