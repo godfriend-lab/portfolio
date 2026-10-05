@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://portfolio-godfriend-lab.vercel.app/api/sitemap
+Sitemap: https://portfolio-godfriend-lab.vercel.app/sitemap.xml
