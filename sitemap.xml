@@ -1,118 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  <!-- ============================================================
-       PAGE PRINCIPALE - Portfolio AGBEVIVI KOFFI GOD-FRIEND
-       ============================================================ -->
+export default function handler(req, res) {
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://portfolio-godfriend-lab.vercel.app/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    
-    <!-- Versions multilingues -->
-    <xhtml:link rel="alternate" hreflang="en" href="https://portfolio-godfriend-lab.vercel.app/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://portfolio-godfriend-lab.vercel.app/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://portfolio-godfriend-lab.vercel.app/" />
-    
-    <!-- Image principale : Photo de profil -->
-    <image:image>
-      <image:loc>https://portfolio-godfriend-lab.vercel.app/assets/images/ma-photo.png</image:loc>
-      <image:title>AGBEVIVI KOFFI GOD-FRIEND - Full-Stack Developer and CTO</image:title>
-      <image:caption>Professional photo of AGBEVIVI KOFFI GOD-FRIEND, Full-Stack Developer and CTO based in Lome, Togo</image:caption>
-    </image:image>
   </url>
-
-  <!-- ============================================================
-       SECTIONS DU PORTFOLIO
-       ============================================================ -->
   <url>
     <loc>https://portfolio-godfriend-lab.vercel.app/#about</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://portfolio-godfriend-lab.vercel.app/#skills</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://portfolio-godfriend-lab.vercel.app/#projects</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://portfolio-godfriend-lab.vercel.app/#experience</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://portfolio-godfriend-lab.vercel.app/#contact</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+</urlset>`;
 
-  <!-- ============================================================
-       IMAGES DES PROJETS - Optimise pour Google Images
-       ============================================================ -->
-  <url>
-    <loc>https://portfolio-godfriend-lab.vercel.app/#projects</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    
-    <!-- AELQUORIS -->
-    <image:image>
-      <image:loc>https://portfolio-godfriend-lab.vercel.app/assets/images/aelquoris.png</image:loc>
-      <image:title>AELQUORIS - Digital Encyclopedia of Africa</image:title>
-      <image:caption>AELQUORIS is a digital encyclopedia dedicated to Africa, enabling users to discover and share knowledge about its history, cultures, languages, peoples, and innovations</image:caption>
-    </image:image>
-    
-    <!-- ProKorb -->
-    <image:image>
-      <image:loc>https://portfolio-godfriend-lab.vercel.app/assets/images/prokorb.png</image:loc>
-      <image:title>ProKorb - Services Marketplace for Africa</image:title>
-      <image:caption>ProKorb connects clients with verified artisans and professionals across Africa, facilitating local service delivery</image:caption>
-    </image:image>
-    
-    <!-- WERK-OX -->
-    <image:image>
-      <image:loc>https://portfolio-godfriend-lab.vercel.app/assets/images/werkox.png</image:loc>
-      <image:title>WERK-OX - All-in-One Business OS</image:title>
-      <image:caption>WERK-OX replaces 10 software tools with one fluid interface. Sync teams in real-time and eliminate software fatigue</image:caption>
-    </image:image>
-    
-    <!-- Devis-Cafe -->
-    <image:image>
-      <image:loc>https://portfolio-godfriend-lab.vercel.app/assets/images/deviscafe.png</image:loc>
-      <image:title>Devis-Cafe - International Quote Creator</image:title>
-      <image:caption>Devis-Cafe is a platform for creating professional quotes at international scale, simplifying generation and tracking</image:caption>
-    </image:image>
-    
-    <!-- WerkLock -->
-    <image:image>
-      <image:loc>https://portfolio-godfriend-lab.vercel.app/assets/images/werklock.png</image:loc>
-      <image:title>WERKLOCK - Secure Solution for Banks and Financial Institutions</image:title>
-      <image:caption>WERKLOCK is a highly secure solution designed for banks and financial institutions with advanced data protection protocols</image:caption>
-    </image:image>
-    
-    <!-- Autres projets -->
-    <image:image>
-      <image:loc>https://portfolio-godfriend-lab.vercel.app/assets/images/autres.png</image:loc>
-      <image:title>Other Projects - E-commerce, Healthcare, Custom Applications</image:title>
-      <image:caption>E-commerce websites, hospital applications, and various custom mini-projects tailored to client needs</image:caption>
-    </image:image>
-  </url>
-
-</urlset>
+  // C'est ICI que la magie opère : on force le bon Content-Type
+  res.setHeader('Content-Type', 'application/xml; charset=utf-8');
+  res.setHeader('Cache-Control', 'public, s-maxage=3600');
+  res.status(200).send(sitemap);
+}
