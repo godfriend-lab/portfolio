@@ -1,352 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="google-site-verification" content="IJNl05R9BYo1wJ24q88AAdZTgsN-gMJWCm85tCGSx0A" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>AGBEVIVI KOFFI GOD-FRIEND | Full-Stack Developer, CTO & AI Engineer - Togo</title>
-<meta name="description" content="AGBEVIVI KOFFI GOD-FRIEND, Full-Stack Software Developer et CTO basé à Lomé, Togo. 4+ ans d'expérience en React, Next.js, Node.js, AI et Data. Créateur de ProKorb, WERK-OX, AELQUORIS. Disponible pour missions internationales remote.">
-<meta name="keywords" content="AGBEVIVI KOFFI GOD-FRIEND, Full-Stack Developer, CTO, React Developer, Next.js, Node.js, AI Engineer, Data, Togo Developer, African Tech, ProKorb, WERK-OX, AELQUORIS, freelance developer Africa, remote developer">
-<meta name="author" content="AGBEVIVI KOFFI GOD-FRIEND">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<link rel="canonical" href="https://portfolio-godfriend-lab.vercel.app/">
-<meta name="geo.region" content="TG"><meta name="geo.placename" content="Lomé">
-<meta name="geo.position" content="6.1256;1.2314"><meta name="ICBM" content="6.1256, 1.2314">
-<meta property="og:type" content="website">
-<meta property="og:title" content="AGBEVIVI KOFFI GOD-FRIEND | Full-Stack Developer & CTO">
-<meta property="og:description" content="Full-Stack Software Developer, CTO @ MATUNEQHYD SARL U. 4+ ans d'expérience en développement web, AI et data.">
-<meta property="og:image" content="https://portfolio-godfriend-lab.vercel.app/assets/images/ma-photo.png">
-<meta property="og:url" content="https://portfolio-godfriend-lab.vercel.app/">
-<meta property="og:site_name" content="AGK Portfolio">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AGBEVIVI KOFFI GOD-FRIEND | Full-Stack Developer & CTO">
-<meta name="twitter:image" content="https://portfolio-godfriend-lab.vercel.app/assets/images/ma-photo.png">
-<link rel="icon" type="image/png" href="/assets/icons/favicon.png">
-<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link rel="stylesheet" href="style.css">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"AGBEVIVI KOFFI GOD-FRIEND","alternateName":"AGK",
-"jobTitle":"Full-Stack Software Developer & CTO",
-"description":"Self-taught Full-Stack Developer with 4+ years of experience building web applications, AI solutions and digital products. CTO at MATUNEQHYD SARL U.",
-"url":"https://portfolio-godfriend-lab.vercel.app/","image":"https://portfolio-godfriend-lab.vercel.app/assets/images/ma-photo.png",
-"email":"service.proconnect.tg@gmail.com","telephone":"+22879940793",
-"address":{"@type":"PostalAddress","addressLocality":"Lomé","addressCountry":"TG"},
-"worksFor":{"@type":"Organization","name":"MATUNEQHYD SARL U"},
-"knowsAbout":["Full-Stack Development","React","Next.js","Node.js","TypeScript","Artificial Intelligence","Data Science","Cloud Architecture","AWS","DevOps"],
-"sameAs":["https://github.com/godfriend-lab","https://www.linkedin.com/in/koffi-god-friend-agbevivi-621976446","https://www.prokorb.com"],
-"alumniOf":{"@type":"EducationalOrganization","name":"Institut La Polyvalence"}}
-</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- SEO & Verification -->
+  <title>AGBEVIVI KOFFI GOD-FRIEND | Full-Stack Developer, CTO & AI Engineer</title>
+  <meta name="description" content="AGBEVIVI KOFFI GOD-FRIEND, Full-Stack Software Developer & CTO based in Lomé, Togo. 4+ years of experience in React, Next.js, Node.js, AI & Data. Creator of ProKorb, WERK-OX, AELQUORIS.">
+  <meta name="keywords" content="AGBEVIVI KOFFI GOD-FRIEND, Full-Stack Developer, CTO, React, Next.js, Node.js, AI Engineer, Data, Togo Developer, African Tech, ProKorb, WERK-OX, AELQUORIS">
+  <meta name="author" content="AGBEVIVI KOFFI GOD-FRIEND">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="google-site-verification" content="IJNl05R9BYo1wJ24q88AAdZTgsN-gMJWCm85tCGSx0A" />
+  <link rel="canonical" href="https://portfolio-godfriend-lab.vercel.app/">
+  
+  <!-- Geo Tags -->
+  <meta name="geo.region" content="TG">
+  <meta name="geo.placename" content="Lomé">
+  <meta name="geo.position" content="6.1256;1.2314">
+  <meta name="ICBM" content="6.1256, 1.2314">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AGBEVIVI KOFFI GOD-FRIEND | Full-Stack Developer & CTO">
+  <meta property="og:description" content="Full-Stack Software Developer & CTO @ MATUNEQHYD SARL U. 4+ years building web apps, AI & data solutions.">
+  <meta property="og:image" content="https://portfolio-godfriend-lab.vercel.app/assets/images/ma-photo.png">
+  <meta property="og:url" content="https://portfolio-godfriend-lab.vercel.app/">
+  <meta property="og:site_name" content="AGK Portfolio">
+  
+  <!-- Twitter Card (Pour l'aperçu du lien lors d'un partage, sans lien vers un profil) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AGBEVIVI KOFFI GOD-FRIEND | Full-Stack Developer & CTO">
+  <meta name="twitter:description" content="Full-Stack Software Developer & CTO based in Togo.">
+  <meta name="twitter:image" content="https://portfolio-godfriend-lab.vercel.app/assets/images/ma-photo.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "AGBEVIVI KOFFI GOD-FRIEND",
+    "alternateName": "AGK",
+    "jobTitle": "Full-Stack Software Developer & CTO",
+    "description": "Self-taught Full-Stack Developer with 4+ years of experience building web applications, AI solutions and digital products. CTO at MATUNEQHYD SARL U.",
+    "url": "https://portfolio-godfriend-lab.vercel.app/",
+    "image": "https://portfolio-godfriend-lab.vercel.app/assets/images/ma-photo.png",
+    "email": "service.proconnect.tg@gmail.com",
+    "telephone": "+22879940793",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lomé",
+      "addressCountry": "TG"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "MATUNEQHYD SARL U"
+    },
+    "knowsAbout": ["Full-Stack Development", "React", "Next.js", "Node.js", "TypeScript", "Artificial Intelligence", "Data Science", "Cloud Architecture", "AWS", "DevOps"],
+    "sameAs": [
+      "https://github.com/godfriend-lab",
+      "https://www.linkedin.com/in/koffi-god-friend-agbevivi-621976446",
+      "https://www.prokorb.com"
+    ],
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Institut La Polyvalence"
+    }
+  }
+  </script>
 </head>
 <body>
 
-<canvas id="matrixCanvas" aria-hidden="true"></canvas>
-<canvas id="brainCanvas" aria-hidden="true"></canvas>
-<div class="vignette" aria-hidden="true"></div>
+  <!-- Background Effects -->
+  <canvas id="matrixCanvas" aria-hidden="true"></canvas>
+  <canvas id="brainCanvas" aria-hidden="true"></canvas>
+  <div class="vignette" aria-hidden="true"></div>
 
-<nav class="navbar" id="navbar">
-  <div class="container nav-inner">
-    <a href="#hero" class="logo"><div class="logo-box">AGK</div><span>Portfolio</span></a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#contact" class="btn-nav">Contact</a></li>
-    </ul>
-    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo">
+        <div class="logo-box">AGK</div>
+        <span>Portfolio</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="btn-nav">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#skills" onclick="closeMenu()">Skills</a>
+    <a href="#projects" onclick="closeMenu()">Projects</a>
+    <a href="#experience" onclick="closeMenu()">Experience</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
   </div>
-</nav>
 
-<div class="mobile-menu" id="mobileMenu">
-  <a href="#about" onclick="closeMenu()">About</a>
-  <a href="#skills" onclick="closeMenu()">Skills</a>
-  <a href="#projects" onclick="closeMenu()">Projects</a>
-  <a href="#experience" onclick="closeMenu()">Experience</a>
-  <a href="#contact" onclick="closeMenu()">Contact</a>
-</div>
-
-<main>
-<section class="hero" id="hero">
-  <div class="container hero-content">
-    <div class="status-pill"><span class="pulse"></span> Available for remote missions</div>
-    <h1 class="hero-title">AGBEVIVI KOFFI<br><span class="grad">GOD-FRIEND</span></h1>
-    <p class="hero-subtitle">Full-Stack Software Developer · AI & Data · CTO</p>
-    <div class="typing-container"><span class="prompt">&gt;</span> <span id="typingText"></span><span class="cursor"></span></div>
-    <div class="hero-actions">
-      <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
-      <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Get in Touch</a>
-    </div>
-    <div class="hero-stats">
-      <div class="stat-item"><div class="stat-number" data-target="4">0</div><div class="stat-label">Years XP</div></div>
-      <div class="stat-item"><div class="stat-number" data-target="15">0</div><div class="stat-label">Projects</div></div>
-      <div class="stat-item"><div class="stat-number" data-target="6">0</div><div class="stat-label">Tech Stacks</div></div>
-      <div class="stat-item"><div class="stat-number" data-target="3">0</div><div class="stat-label">Languages</div></div>
-    </div>
-  </div>
-</section>
-
-<div class="marquee" aria-hidden="true"><div class="marquee-track">
-<span>React</span><span>Next.js</span><span>TypeScript</span><span>Node.js</span><span>Supabase</span><span>Tailwind CSS</span><span>AI Integration</span><span>Generative AI</span><span>AWS</span><span>Vercel</span><span>CI/CD</span><span>REST APIs</span>
-<span>React</span><span>Next.js</span><span>TypeScript</span><span>Node.js</span><span>Supabase</span><span>Tailwind CSS</span><span>AI Integration</span><span>Generative AI</span><span>AWS</span><span>Vercel</span><span>CI/CD</span><span>REST APIs</span>
-</div></div>
-
-<section class="section-padding" id="about">
-  <div class="container">
-    <div class="section-header reveal">
-      <h2 class="section-title">Who am I?</h2>
-      <p class="section-desc">Self-taught developer building digital products for Africa and the world.</p>
-    </div>
-    <div class="about-grid">
-      <div class="glass about-card reveal">
-        <div class="about-photo-wrapper"><img src="assets/images/ma-photo.png" alt="AGBEVIVI KOFFI GOD-FRIEND - Full-Stack Developer" class="about-photo"></div>
-        <div class="about-name">AGBEVIVI KOFFI GOD-FRIEND</div>
-        <div class="about-role">Full-Stack Developer · AI & Data · CTO</div>
-        <ul class="about-info-list">
-          <li><i class="fas fa-map-marker-alt"></i> Lomé, Togo</li>
-          <li><i class="fas fa-envelope"></i> service.proconnect.tg@gmail.com</li>
-          <li><i class="fas fa-phone"></i> +228 79 94 07 93</li>
-          <li><i class="fas fa-globe"></i> Open to remote work worldwide</li>
-        </ul>
-      </div>
-      <div class="about-text reveal">
-        <h3>Building Africa's <span class="grad">digital future</span></h3>
-        <p>Self-taught Full-Stack Developer with <strong>4+ years of experience</strong> shipping real web applications and digital products: frontend, backend, APIs, databases, AI, data, SaaS and automation.</p>
-        <p>As CTO of MATUNEQHYD SARL U, I lead architecture, cloud deployment and product delivery. Based in Togo, working with teams worldwide.</p>
-        <div class="highlights-grid">
-          <div class="glass highlight-item"><i class="fas fa-code"></i> Full-Stack Dev</div>
-          <div class="glass highlight-item"><i class="fas fa-brain"></i> AI & Data</div>
-          <div class="glass highlight-item"><i class="fas fa-cloud"></i> Cloud & DevOps</div>
-          <div class="glass highlight-item"><i class="fas fa-layer-group"></i> SaaS Products</div>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero-content">
+        <div class="status-pill"><span class="pulse"></span> Available for remote missions</div>
+        <h1 class="hero-title">AGBEVIVI KOFFI<br><span class="grad">GOD-FRIEND</span></h1>
+        <p class="hero-subtitle">Full-Stack Software Developer · AI & Data · CTO</p>
+        <div class="typing-container">
+          <span class="prompt">&gt;</span> <span id="typingText"></span><span class="cursor"></span>
+        </div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Get in Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item"><div class="stat-number" data-target="4">0</div><div class="stat-label">Years XP</div></div>
+          <div class="stat-item"><div class="stat-number" data-target="15">0</div><div class="stat-label">Projects</div></div>
+          <div class="stat-item"><div class="stat-number" data-target="6">0</div><div class="stat-label">Tech Stacks</div></div>
+          <div class="stat-item"><div class="stat-number" data-target="3">0</div><div class="stat-label">Languages</div></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="section-padding" id="skills">
-  <div class="container">
-    <div class="section-header reveal">
-      <h2 class="section-title">Technical skills</h2>
-      <p class="section-desc">The full stack for end-to-end solutions.</p>
-    </div>
-    <div class="skills-grid">
-      <div class="glass skill-card reveal"><div class="skill-header"><div class="skill-icon"><i class="fas fa-palette"></i></div><div class="skill-title">Frontend</div></div>
-        <div class="skill-tags"><span>React</span><span>Next.js</span><span>TypeScript</span><span>Tailwind CSS</span><span>UI/UX</span></div></div>
-      <div class="glass skill-card reveal"><div class="skill-header"><div class="skill-icon"><i class="fas fa-server"></i></div><div class="skill-title">Backend</div></div>
-        <div class="skill-tags"><span>Node.js</span><span>REST APIs</span><span>Supabase</span><span>Database Arch.</span></div></div>
-      <div class="glass skill-card reveal"><div class="skill-header"><div class="skill-icon"><i class="fas fa-robot"></i></div><div class="skill-title">AI & Data</div></div>
-        <div class="skill-tags"><span>AI Integration</span><span>Generative AI</span><span>Data Analysis</span><span>Data-driven Apps</span></div></div>
-      <div class="glass skill-card reveal"><div class="skill-header"><div class="skill-icon"><i class="fas fa-tools"></i></div><div class="skill-title">DevOps & Tools</div></div>
-        <div class="skill-tags"><span>AWS</span><span>Vercel</span><span>Git/GitHub</span><span>CI/CD</span></div></div>
-      <div class="glass skill-card reveal"><div class="skill-header"><div class="skill-icon"><i class="fas fa-cubes"></i></div><div class="skill-title">Product</div></div>
-        <div class="skill-tags"><span>SaaS</span><span>Automation</span><span>PDF Generation</span><span>Real-time</span></div></div>
-      <div class="glass skill-card reveal"><div class="skill-header"><div class="skill-icon"><i class="fas fa-language"></i></div><div class="skill-title">Languages</div></div>
-        <div class="skill-tags"><span>🇫🇷 French (Native)</span><span>🇬🇧 English (Native)</span><span>🇩🇪 German (B1)</span></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="section-padding" id="projects">
-  <div class="container">
-    <div class="section-header reveal">
-      <h2 class="section-title">Featured projects</h2>
-      <p class="section-desc">From concept to deployment. Projects marked "In development" are not public yet.</p>
-    </div>
-    <div class="projects-grid">
-
-      <!-- EN DÉVELOPPEMENT : aucun lien -->
-      <article class="glass project-card reveal">
-        <div class="project-banner">
-          <img src="assets/images/aelquoris.png" alt="AELQUORIS - Digital Encyclopedia of Africa" class="project-image">
-          <span class="project-status status-dev">● In development</span>
-        </div>
-        <div class="project-info">
-          <div class="project-name">AELQUORIS</div>
-          <div class="project-tagline">Digital Encyclopedia of Africa</div>
-          <p class="project-desc">A digital encyclopedia of African knowledge, powered by AI search. Currently under construction.</p>
-          <div class="project-tech"><span>React</span><span>Node.js</span><span>Supabase</span><span>AI</span></div>
-          <span class="link-btn link-disabled"><i class="fas fa-hourglass-half"></i> Coming soon</span>
-        </div>
-      </article>
-
-      <article class="glass project-card reveal">
-        <div class="project-banner">
-          <img src="assets/images/werkox.png" alt="WERK-OX - All-in-One Business OS" class="project-image">
-          <span class="project-status status-dev">● In development</span>
-        </div>
-        <div class="project-info">
-          <div class="project-name">WERK-OX</div>
-          <div class="project-tagline">All-in-One Business OS</div>
-          <p class="project-desc">One fluid interface to replace ten software tools: CRM, pipeline, projects and meetings, synced in real time.</p>
-          <div class="project-tech"><span>Next.js</span><span>Real-time</span><span>SaaS</span></div>
-          <span class="link-btn link-disabled"><i class="fas fa-hourglass-half"></i> Coming soon</span>
-        </div>
-      </article>
-
-      <article class="glass project-card reveal">
-        <div class="project-banner">
-          <img src="assets/images/werklock.png" alt="WERKLOCK - Finance platform" class="project-image">
-          <span class="project-status status-dev">● In development</span>
-        </div>
-        <div class="project-info">
-          <div class="project-name">WERKLOCK</div>
-          <div class="project-tagline">Platform for Financial Institutions</div>
-          <p class="project-desc">A solution designed for banks and financial institutions. Private build, not yet released.</p>
-          <div class="project-tech"><span>Banking API</span><span>Full-Stack</span></div>
-          <span class="link-btn link-disabled"><i class="fas fa-lock"></i> Private</span>
-        </div>
-      </article>
-
-      <!-- LIVE -->
-      <article class="glass project-card reveal">
-        <div class="project-banner">
-          <button class="project-image-link" onclick="openLightbox('assets/images/prokorb.png','PROKORB')" aria-label="Enlarge ProKorb preview">
-            <img src="assets/images/prokorb.png" alt="ProKorb - Services Marketplace for Africa" class="project-image">
-            <div class="view-icon"><i class="fas fa-search-plus"></i></div>
-          </button>
-          <span class="project-status status-live">● Live</span>
-        </div>
-        <div class="project-info">
-          <div class="project-name">PROKORB</div>
-          <div class="project-tagline">Services Marketplace for Africa</div>
-          <p class="project-desc">Connects clients with verified artisans and professionals across Africa.</p>
-          <div class="project-tech"><span>Next.js</span><span>Node.js</span><span>APIs</span></div>
-          <a href="https://www.prokorb.com" target="_blank" rel="noopener" class="link-btn link-primary"><i class="fas fa-external-link-alt"></i> prokorb.com</a>
-        </div>
-      </article>
-
-      <article class="glass project-card reveal">
-        <div class="project-banner">
-          <button class="project-image-link" onclick="openLightbox('assets/images/deviscafe.png','DEVIS-CAFÉ')" aria-label="Enlarge Devis-Café preview">
-            <img src="assets/images/deviscafe.png" alt="Devis-Café - International Quote Creator" class="project-image">
-            <div class="view-icon"><i class="fas fa-search-plus"></i></div>
-          </button>
-          <span class="project-status status-live">● Live</span>
-        </div>
-        <div class="project-info">
-          <div class="project-name">DEVIS-CAFÉ</div>
-          <div class="project-tagline">International Quote Creator</div>
-          <p class="project-desc">Create, send and track professional quotes at international scale.</p>
-          <div class="project-tech"><span>Full-Stack</span><span>PDF Gen</span><span>Multi-currency</span></div>
-          <a href="https://www.devis-cafe.com" target="_blank" rel="noopener" class="link-btn link-primary"><i class="fas fa-external-link-alt"></i> devis-cafe.com</a>
-        </div>
-      </article>
-
-      <article class="glass project-card reveal">
-        <div class="project-banner">
-          <button class="project-image-link" onclick="openLightbox('assets/images/autres.png','OTHER PROJECTS')" aria-label="Enlarge other projects preview">
-            <img src="assets/images/autres.png" alt="Other Projects - E-commerce, Healthcare, Custom Apps" class="project-image">
-            <div class="view-icon"><i class="fas fa-search-plus"></i></div>
-          </button>
-          <span class="project-status status-live">● Various</span>
-        </div>
-        <div class="project-info">
-          <div class="project-name">OTHER PROJECTS</div>
-          <div class="project-tagline">E-commerce, Healthcare, Custom</div>
-          <p class="project-desc">E-commerce websites, hospital applications and custom apps built to client needs.</p>
-          <div class="project-tech"><span>E-commerce</span><span>Healthcare</span><span>Custom Apps</span></div>
-          <a href="#contact" class="link-btn link-primary"><i class="fas fa-envelope"></i> Ask for the full portfolio</a>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section-padding" id="experience">
-  <div class="container">
-    <div class="section-header reveal"><h2 class="section-title">Professional experience</h2></div>
-    <div class="timeline">
-      <div class="timeline-item reveal"><div class="timeline-dot"></div>
-        <div class="glass timeline-card">
-          <div class="timeline-date">2023 — Present</div>
-          <div class="timeline-title">Chief Technology Officer (CTO)</div>
-          <div class="timeline-company">MATUNEQHYD SARL U — Togo</div>
-          <ul>
-            <li>Technical direction and development of digital products.</li>
-            <li>Design and delivery of full-stack web applications.</li>
-            <li>Lead of technical architecture and cloud deployment.</li>
-            <li>Stack: AWS, Vercel, Git, GitHub.</li>
-          </ul>
-        </div></div>
-      <div class="timeline-item reveal"><div class="timeline-dot"></div>
-        <div class="glass timeline-card">
-          <div class="timeline-date">4+ years</div>
-          <div class="timeline-title">Self-Taught Software Engineer</div>
-          <div class="timeline-company">Independent — Full-Stack, Backend, APIs, AI, Data</div>
-          <ul>
-            <li>Built a software engineering career through self-directed learning.</li>
-            <li>Delivered 15+ projects across e-commerce, healthcare and SaaS.</li>
-          </ul>
-        </div></div>
-    </div>
-  </div>
-</section>
-
-<section class="section-padding" id="extras">
-  <div class="container extras-grid">
-    <div class="glass extra-card reveal">
-      <h3><i class="fas fa-graduation-cap"></i> Education</h3>
-      <div class="edu-item"><div class="edu-degree">High School Diploma</div><div class="edu-school">Institut La Polyvalence — Togo</div><div class="edu-year">2021</div></div>
-      <div class="edu-item"><div class="edu-degree">Continuous self-education</div><div class="edu-school">Full-Stack, AI, Cloud</div><div class="edu-year">Ongoing</div></div>
-    </div>
-    <div class="glass extra-card reveal">
-      <h3><i class="fas fa-language"></i> Languages</h3>
-      <div class="lang-item"><span class="lang-name">🇫🇷 French</span><div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div><span class="lang-level">Native</span></div>
-      <div class="lang-item"><span class="lang-name">🇬🇧 English</span><div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div><span class="lang-level">Native</span></div>
-      <div class="lang-item"><span class="lang-name">🇩🇪 German</span><div class="lang-bar"><div class="lang-fill" style="width:50%"></div></div><span class="lang-level">B1</span></div>
-    </div>
-  </div>
-</section>
-
-<section class="section-padding" id="contact">
-  <div class="container">
-    <div class="section-header reveal"><h2 class="section-title">Let's work together</h2></div>
-    <div class="contact-wrapper">
-      <div class="contact-info reveal">
-        <p>Open to new opportunities, collaborations and ambitious projects. Send me a message.</p>
-        <div class="contact-methods">
-          <a href="mailto:service.proconnect.tg@gmail.com" class="glass contact-method"><div class="method-icon"><i class="fas fa-envelope"></i></div><div><div class="method-label">Email</div><div class="method-text">service.proconnect.tg@gmail.com</div></div></a>
-          <a href="tel:+22879940793" class="glass contact-method"><div class="method-icon"><i class="fas fa-phone"></i></div><div><div class="method-label">Phone</div><div class="method-text">+228 79 94 07 93</div></div></a>
-          <div class="glass contact-method"><div class="method-icon"><i class="fas fa-map-marker-alt"></i></div><div><div class="method-label">Location</div><div class="method-text">Lomé, Togo — Remote worldwide</div></div></div>
-        </div>
-      </div>
-      <div class="glass contact-form reveal">
-        <form id="contactForm" action="https://formspree.io/f/mgaowqyj" method="POST">
-          <div class="form-group"><label for="name">Full name</label><input type="text" id="name" name="name" placeholder="John Doe" required></div>
-          <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="john@example.com" required></div>
-          <div class="form-group"><label for="subject">Subject</label><input type="text" id="subject" name="subject" placeholder="Web development project"></div>
-          <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" placeholder="Describe your project..." required></textarea></div>
-          <button type="submit" class="btn-submit" id="submitBtn"><i class="fas fa-paper-plane"></i> Send message</button>
-          <p id="formStatus" role="status"></p>
-        </form>
+    <!-- Tech Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>React</span><span>Next.js</span><span>TypeScript</span><span>Node.js</span><span>Supabase</span><span>Tailwind CSS</span><span>AI Integration</span><span>Generative AI</span><span>AWS</span><span>Vercel</span><span>CI/CD</span><span>REST APIs</span>
+        <span>React</span><span>Next.js</span><span>TypeScript</span><span>Node.js</span><span>Supabase</span><span>Tailwind CSS</span><span>AI Integration</span><span>Generative AI</span><span>AWS</span><span>Vercel</span><span>CI/CD</span><span>REST APIs</span>
       </div>
     </div>
-  </div>
-</section>
-</main>
 
-<footer class="footer">
-  <div class="container">
-    <div class="footer-socials">
-      <a href="https://github.com/godfriend-lab" target="_blank" rel="noopener" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/koffi-god-friend-agbevivi-621976446" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://www.prokorb.com" target="_blank" rel="noopener" class="social-link" aria-label="ProKorb"><i class="fas fa-globe"></i></a>
+    <!-- About Section -->
+    <section class="section-padding" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Who am I?</h2>
+          <p class="section-desc">Self-taught developer building digital products for Africa and the world.</p>
+        </div>
+        <div class="about-grid">
+          <div class="glass about-card reveal">
+            <div class="about-photo-wrapper">
+              <img src="assets/images/ma-photo.png" alt="AGBEVIVI KOFFI GOD-FRIEND - Full-Stack Developer" class="about-photo">
+            </div>
+            <div class="about-name">AGBEVIVI KOFFI GOD-FRIEND</div>
+            <div class="about-role">Full-Stack Developer · AI & Data · CTO</div>
+            <ul class="about-info-list">
+              <li><i class="fas fa-map-marker-alt"></i> Lomé, Togo</li>
+              <li><i class="fas fa-envelope"></i> service.proconnect.tg@gmail.com</li>
+              <li><i class="fas fa-phone"></i> +228 79 94 07 93</li>
+              <li><i class="fas fa-globe"></i> Open to remote work worldwide</li>
+            </ul>
+          </div>
+          <div class="about-text reveal">
+            <h3>Building Africa's <span class="grad">digital future</span></h3>
+            <p>Self-taught Full-Stack Developer with <strong>4+ years of experience</strong> shipping real web applications and digital products: frontend, backend, APIs, databases, AI, data, SaaS and automation.</p>
+            <p>As CTO of MATUNEQHYD SARL U, I lead architecture, cloud deployment and product delivery. Based in Togo, working with teams worldwide.</p>
+            <div class="highlights-grid">
+              <div class="glass highlight-item"><i class="fas fa-code"></i> Full-Stack Dev</div>
+              <div class="glass highlight-item"><i class="fas fa-brain"></i> AI & Data</div>
+              <div class="glass highlight-item"><i class="fas fa-cloud"></i> Cloud & DevOps</div>
+              <div class="glass highlight-item"><i class="fas fa-layer-group"></i> SaaS Products</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section-padding" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Technical skills</h2>
+          <p class="section-desc">The full stack for end-to-end solutions.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="glass skill-card reveal">
+            <div class="skill-header"><div class="skill-icon"><i class="fas fa-palette"></i></div><div class="skill-title">Frontend</div></div>
+            <div class="skill-tags"><span>React</span><span>Next.js</span><span>TypeScript</span><span>Tailwind CSS</span><span>UI/UX</span></div>
+          </div>
+          <div class="glass skill-card reveal">
+            <div class="skill-header"><div class="skill-icon"><i class="fas fa-server"></i></div><div class="skill-title">Backend</div></div>
+            <div class="skill-tags"><span>Node.js</span><span>REST APIs</span><span>Supabase</span><span>Database Arch.</span></div>
+          </div>
+          <div class="glass skill-card reveal">
+            <div class="skill-header"><div class="skill-icon"><i class="fas fa-robot"></i></div><div class="skill-title">AI & Data</div></div>
+            <div class="skill-tags"><span>AI Integration</span><span>Generative AI</span><span>Data Analysis</span><span>Data-driven Apps</span></div>
+          </div>
+          <div class="glass skill-card reveal">
+            <div class="skill-header"><div class="skill-icon"><i class="fas fa-tools"></i></div><div class="skill-title">DevOps & Tools</div></div>
+            <div class="skill-tags"><span>AWS</span><span>Vercel</span><span>Git/GitHub</span><span>CI/CD</span></div>
+          </div>
+          <div class="glass skill-card reveal">
+            <div class="skill-header"><div class="skill-icon"><i class="fas fa-cubes"></i></div><div class="skill-title">Product</div></div>
+            <div class="skill-tags"><span>SaaS</span><span>Automation</span><span>PDF Generation</span><span>Real-time</span></div>
+          </div>
+          <div class="glass skill-card reveal">
+            <div class="skill-header"><div class="skill-icon"><i class="fas fa-language"></i></div><div class="skill-title">Languages</div></div>
+            <div class="skill-tags"><span>🇫🇷 French (Native)</span><span>🇬🇧 English (Native)</span><span>🇩🇪 German (B1)</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section-padding" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Featured projects</h2>
+          <p class="section-desc">From concept to deployment. Projects marked "In development" are not public yet.</p>
+        </div>
+        <div class="projects-grid">
+
+          <!-- In Development -->
+          <article class="glass project-card reveal">
+            <div class="project-banner">
+              <img src="assets/images/aelquoris.png" alt="AELQUORIS - Digital Encyclopedia of Africa" class="project-image">
+              <span class="project-status status-dev">● In development</span>
+            </div>
+            <div class="project-info">
+              <div class="project-name">AELQUORIS</div>
+              <div class="project-tagline">Digital Encyclopedia of Africa</div>
+              <p class="project-desc">A digital encyclopedia of African knowledge, powered by AI search. Currently under construction.</p>
+              <div class="project-tech"><span>React</span><span>Node.js</span><span>Supabase</span><span>AI</span></div>
+              <span class="link-btn link-disabled"><i class="fas fa-hourglass-half"></i> Coming soon</span>
+            </div>
+          </article>
+
+          <article class="glass project-card reveal">
+            <div class="project-banner">
+              <img src="assets/images/werkox.png" alt="WERK-OX - All-in-One Business OS" class="project-image">
+              <span class="project-status status-dev">● In development</span>
+            </div>
+            <div class="project-info">
+              <div class="project-name">WERK-OX</div>
+              <div class="project-tagline">All-in-One Business OS</div>
+              <p class="project-desc">One fluid interface to replace ten software tools: CRM, pipeline, projects and meetings, synced in real time.</p>
+              <div class="project-tech"><span>Next.js</span><span>Real-time</span><span>SaaS</span></div>
+              <span class="link-btn link-disabled"><i class="fas fa-hourglass-half"></i> Coming soon</span>
+            </div>
+          </article>
+
+          <article class="glass project-card reveal">
+            <div class="project-banner">
+              <img src="assets/images/werklock.png" alt="WERKLOCK - Finance platform" class="project-image">
+              <span class="project-status status-dev">● In development</span>
+            </div>
+            <div class="project-info">
+              <div class="project-name">WERKLOCK</div>
+              <div class="project-tagline">Platform for Financial Institutions</div>
+              <p class="project-desc">A solution designed for banks and financial institutions. Private build, not yet released.</p>
+              <div class="project-tech"><span>Banking API</span><span>Full-Stack</span></div>
+              <span class="link-btn link-disabled"><i class="fas fa-lock"></i> Private</span>
+            </div>
+          </article>
+
+          <!-- Live Projects -->
+          <article class="glass project-card reveal">
+            <div class="project-banner">
+              <button class="project-image-link" onclick="openLightbox('assets/images/prokorb.png','PROKORB')" aria-label="Enlarge ProKorb preview">
+                <img src="assets/images/prokorb.png" alt="ProKorb - Services Marketplace for Africa" class="project-image">
+                <div class="view-icon"><i class="fas fa-search-plus"></i></div>
+              </button>
+              <span class="project-status status-live">● Live</span>
+            </div>
+            <div class="project-info">
+              <div class="project-name">PROKORB</div>
+              <div class="project-tagline">Services Marketplace for Africa</div>
+              <p class="project-desc">Connects clients with verified artisans and professionals across Africa.</p>
+              <div class="project-tech"><span>Next.js</span><span>Node.js</span><span>APIs</span></div>
+              <a href="https://www.prokorb.com" target="_blank" rel="noopener" class="link-btn link-primary"><i class="fas fa-external-link-alt"></i> prokorb.com</a>
+            </div>
+          </article>
+
+          <article class="glass project-card reveal">
+            <div class="project-banner">
+              <button class="project-image-link" onclick="openLightbox('assets/images/deviscafe.png','DEVIS-CAFÉ')" aria-label="Enlarge Devis-Café preview">
+                <img src="assets/images/deviscafe.png" alt="Devis-Café - International Quote Creator" class="project-image">
+                <div class="view-icon"><i class="fas fa-search-plus"></i></div>
+              </button>
+              <span class="project-status status-live">● Live</span>
+            </div>
+            <div class="project-info">
+              <div class="project-name">DEVIS-CAFÉ</div>
+              <div class="project-tagline">International Quote Creator</div>
+              <p class="project-desc">Create, send and track professional quotes at international scale.</p>
+              <div class="project-tech"><span>Full-Stack</span><span>PDF Gen</span><span>Multi-currency</span></div>
+              <a href="https://www.devis-cafe.com" target="_blank" rel="noopener" class="link-btn link-primary"><i class="fas fa-external-link-alt"></i> devis-cafe.com</a>
+            </div>
+          </article>
+
+          <article class="glass project-card reveal">
+            <div class="project-banner">
+              <button class="project-image-link" onclick="openLightbox('assets/images/autres.png','OTHER PROJECTS')" aria-label="Enlarge other projects preview">
+                <img src="assets/images/autres.png" alt="Other Projects - E-commerce, Healthcare, Custom Apps" class="project-image">
+                <div class="view-icon"><i class="fas fa-search-plus"></i></div>
+              </button>
+              <span class="project-status status-live">● Various</span>
+            </div>
+            <div class="project-info">
+              <div class="project-name">OTHER PROJECTS</div>
+              <div class="project-tagline">E-commerce, Healthcare, Custom</div>
+              <p class="project-desc">E-commerce websites, hospital applications and custom apps built to client needs.</p>
+              <div class="project-tech"><span>E-commerce</span><span>Healthcare</span><span>Custom Apps</span></div>
+              <a href="#contact" class="link-btn link-primary"><i class="fas fa-envelope"></i> Ask for full portfolio</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section-padding" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Professional experience</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass timeline-card">
+              <div class="timeline-date">2023 — Present</div>
+              <div class="timeline-title">Chief Technology Officer (CTO)</div>
+              <div class="timeline-company">MATUNEQHYD SARL U — Togo</div>
+              <ul>
+                <li>Technical direction and development of digital products.</li>
+                <li>Design and delivery of full-stack web applications.</li>
+                <li>Lead of technical architecture and cloud deployment.</li>
+                <li>Stack: AWS, Vercel, Git, GitHub.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass timeline-card">
+              <div class="timeline-date">4+ years</div>
+              <div class="timeline-title">Self-Taught Software Engineer</div>
+              <div class="timeline-company">Independent — Full-Stack, Backend, APIs, AI, Data</div>
+              <ul>
+                <li>Built a software engineering career through self-directed learning.</li>
+                <li>Delivered 15+ projects across e-commerce, healthcare and SaaS.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Extras Section -->
+    <section class="section-padding" id="extras">
+      <div class="container extras-grid">
+        <div class="glass extra-card reveal">
+          <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+          <div class="edu-item">
+            <div class="edu-degree">High School Diploma</div>
+            <div class="edu-school">Institut La Polyvalence — Togo</div>
+            <div class="edu-year">2021</div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-degree">Continuous self-education</div>
+            <div class="edu-school">Full-Stack, AI, Cloud</div>
+            <div class="edu-year">Ongoing</div>
+          </div>
+        </div>
+        <div class="glass extra-card reveal">
+          <h3><i class="fas fa-language"></i> Languages</h3>
+          <div class="lang-item">
+            <span class="lang-name">🇫🇷 French</span>
+            <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+            <span class="lang-level">Native</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name">🇬🇧 English</span>
+            <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+            <span class="lang-level">Native</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name">🇩🇪 German</span>
+            <div class="lang-bar"><div class="lang-fill" style="width:50%"></div></div>
+            <span class="lang-level">B1</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-padding" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Let's work together</h2>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info reveal">
+            <p>Open to new opportunities, collaborations and ambitious projects. Send me a message.</p>
+            <div class="contact-methods">
+              <a href="mailto:service.proconnect.tg@gmail.com" class="glass contact-method">
+                <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                <div><div class="method-label">Email</div><div class="method-text">service.proconnect.tg@gmail.com</div></div>
+              </a>
+              <a href="tel:+22879940793" class="glass contact-method">
+                <div class="method-icon"><i class="fas fa-phone"></i></div>
+                <div><div class="method-label">Phone</div><div class="method-text">+228 79 94 07 93</div></div>
+              </a>
+              <div class="glass contact-method">
+                <div class="method-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div><div class="method-label">Location</div><div class="method-text">Lomé, Togo — Remote worldwide</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="glass contact-form reveal">
+            <form id="contactForm" action="https://formspree.io/f/mgaowqyj" method="POST">
+              <div class="form-group">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Web development project">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Describe your project..." required></textarea>
+              </div>
+              <button type="submit" class="btn-submit" id="submitBtn">
+                <i class="fas fa-paper-plane"></i> Send message
+              </button>
+              <p id="formStatus" role="status"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-socials">
+        <a href="https://github.com/godfriend-lab" target="_blank" rel="noopener" class="social-link" aria-label="GitHub Profile">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/koffi-god-friend-agbevivi-621976446" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn Profile">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.prokorb.com" target="_blank" rel="noopener" class="social-link" aria-label="ProKorb Website">
+          <i class="fas fa-globe"></i>
+        </a>
+      </div>
+      <p class="footer-text">© 2026 AGBEVIVI KOFFI GOD-FRIEND. Built with <span class="heart">♥</span> in Togo.</p>
     </div>
-    <p class="footer-text">© 2026 AGBEVIVI KOFFI GOD-FRIEND. <span class="heart"></span></p>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close lightbox">
+      <i class="fas fa-times"></i>
+    </button>
+    <img id="lightbox-img" src="" alt="Project preview">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
   </div>
-</footer>
 
-<div id="lightbox" class="lightbox" onclick="closeLightbox()">
-  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close"><i class="fas fa-times"></i></button>
-  <img id="lightbox-img" src="" alt="Project preview">
-  <div id="lightbox-caption" class="lightbox-caption"></div>
-</div>
-
-<script src="script.js"></script>
+  <!-- Scripts -->
+  <script src="script.js"></script>
 </body>
 </html>
